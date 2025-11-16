@@ -1,5 +1,5 @@
 {
-  "name": "vitest-msw-lab",
+  "name": "vue-test",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -13,21 +13,19 @@
     "test:unit": "vitest"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/vue": "^8.1.0",
+    "msw": "^2.12.2",
     "pinia": "^3.0.3",
     "vue": "^3.5.22",
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.1.16",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/test-utils": "^2.4.6",
-    "autoprefixer": "^10.4.21",
     "jsdom": "^27.0.1",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.16",
     "vite": "^7.1.11",
     "vite-plugin-vue-devtools": "^8.0.3",
-    "vitest": "^3.2.4",
-    "msw": "^2.11.6"
+    "vitest": "^3.2.4"
   }
 }

@@ -1,15 +1,14 @@
 <script setup>
-import AppHeader from "@/components/AppHeader.vue";
-import FilterSection from "@/components/FilterSection.vue";
-import MealListSection from "@/components/MealListSection.vue";
-import AppFooter from "@/components/AppFooter.vue";
+import { RouterLink, RouterView } from 'vue-router'
+import MyGrid from './components/MyGrid.vue'
 </script>
 
 <template>
-  <AppHeader />
-  <main>
-    <FilterSection />
-    <MealListSection />
-  </main>
-  <AppFooter />
+  <header>
+
+    <div class="wrapper">
+      <MyGrid/>
+    </div>
+  </header>
+
 </template>
